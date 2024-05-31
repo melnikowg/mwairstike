@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MWA Updatelist</title>
+</head>
+
+<style>
+    *,
+    html {
+        padding: 0;
+        margin: 0;
+    }
+
+    :root {
+        --AAC: rgb(145, 155, 86);
+    }
+
+    body {
+        line-height: 1.5em;
+        font-family: 'Arial';
+        background-color: black;
+        color: white;
+    }
+
+    .container {
+        margin-top: 2.5em;
+    }
+
+    .updblock {
+        padding: 1em;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 8em;
+        text-align: justify;
+        border-radius: 1em;
+        border: .15em solid gray;
+        margin-bottom: 1em;
+    }
+
+    #upd_type {
+        margin-top: 0em;
+        color: white;
+        font-weight: 700;
+        padding: .5em;
+        border-radius: .5em;
+        width: 95%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .modifed_list {
+        margin-left: 1em;
+        list-style-type: circle;
+    }
+
+    hr {
+        border: none;
+        height: .1em;
+        background-color: rgb(49, 49, 49);
+        margin-top: 0.75em;
+        margin-bottom: .75em;
+    }
+
+    #dell {
+        color: gray;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="updblock">
+            <p id="upd_type">обновление 1.0.1 <span id="dell">/</span> 02.06.2024</p>
+            <hr>
+            <p id="modifed_info">Нововведения:</p>
+            <ul class="modifed_list">
+                <li>Внутриигровые новости. Узнавайте самые последние новости прямо в игре!</li>
+            </ul>
+        </div>
+        <div class="updblock">
+            <p id="upd_type">Новость <span id="dell">/</span> 01.06.2024</p>
+            <hr>
+            <p id="modifed_info">Игре исполняется 1 год! Поздравляем всех игроков с этим замечательным днём.</p>
+        </div>
+        <!-- <div class="updblock">
+            <p id="upd_type">Техническое обновление / 31.05.2024</p>
+            <hr>
+            <p id="modifed_info">Изменения:</p>
+            <ul class="modifed_list">
+                <li>Пусто</li>
+            </ul>
+        </div> -->
+    </div>
+</body>
+
+</html>
